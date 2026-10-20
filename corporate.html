@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Explore corporate stay and business travel enquiries at Jokema Inn in Lae, Papua New Guinea. Contact the team to discuss your travel requirements.">
+  <title>Corporate Stays & Business Travel | Jokema Inn</title>
+  <style>
+    :root{--green-dark:#123b32;--green:#1c5948;--gold:#d9ad65;--cream:#f7f4ed;--ink:#17231f;--muted:#66736d;--white:#fff;--line:#e5e2d9;--shadow:0 16px 40px rgba(18,59,50,.10)}
+    *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Arial,Helvetica,sans-serif;color:var(--ink);background:#fff;line-height:1.65}a{color:inherit}img{display:block;max-width:100%}.container{width:min(1160px,92%);margin:auto}
+    .topbar{background:var(--green-dark);color:#f7f4ed;font-size:.86rem}.topbar-inner{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;padding:8px 0}.topbar a{text-decoration:none}
+    header{position:sticky;top:0;z-index:20;background:rgba(255,255,255,.97);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}.nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:22px;min-height:82px}.brand{text-decoration:none;display:flex;flex-direction:column;line-height:1.15}.brand strong{font-family:Georgia,serif;font-size:1.45rem;letter-spacing:.12em;color:var(--green-dark)}.brand span{font-size:.72rem;color:var(--muted);letter-spacing:.07em;margin-top:5px}.menu-toggle{display:none;border:1px solid var(--line);background:#fff;border-radius:8px;padding:9px 12px;font-size:1rem;color:var(--green-dark)}
+    nav ul{list-style:none;display:flex;align-items:center;gap:4px;padding:0;margin:0}nav li{position:relative}nav a,nav button{display:block;border:0;background:transparent;text-decoration:none;color:var(--ink);font-size:.91rem;padding:12px 10px;border-radius:7px;cursor:pointer;font-family:inherit}nav a:hover,nav button:hover,nav a[aria-current=page]{background:var(--cream);color:var(--green)}.dropdown-menu{display:none;position:absolute;top:100%;left:0;min-width:220px;max-height:70vh;overflow:auto;background:#fff;border:1px solid var(--line);box-shadow:var(--shadow);border-radius:10px;padding:8px;z-index:30}.dropdown-menu a{padding:9px 12px;white-space:nowrap}.dropdown.open .dropdown-menu,.dropdown:focus-within .dropdown-menu{display:block}.nav-cta{background:var(--green)!important;color:#fff!important;padding:11px 15px!important}.nav-cta:hover{background:var(--green-dark)!important}
+    .hero{background:var(--green-dark);color:#fff;position:relative;overflow:hidden}.hero-grid{display:grid;grid-template-columns:1.02fr .98fr;min-height:480px;align-items:center;gap:45px;padding:62px 0}.eyebrow{display:inline-flex;align-items:center;gap:9px;text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:700;color:var(--gold)}.eyebrow:before{content:"";width:28px;height:1px;background:currentColor}.hero h1{font:clamp(2.5rem,5vw,4.4rem)/1.08 Georgia,serif;font-weight:400;margin:18px 0}.hero p{color:#e2e9e4;font-size:1.06rem;max-width:560px}.hero-image{height:355px;border-radius:18px 18px 80px 18px;overflow:hidden;border:1px solid rgba(255,255,255,.2)}.hero-image img{width:100%;height:100%;object-fit:cover}.button-row{display:flex;gap:12px;flex-wrap:wrap;margin-top:27px}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;text-decoration:none;border-radius:6px;padding:13px 18px;font-weight:700;font-size:.93rem;border:1px solid transparent}.btn-gold{background:var(--gold);color:var(--green-dark)}.btn-outline{border-color:rgba(255,255,255,.55);color:#fff}.btn-green{background:var(--green);color:#fff}.btn-light{background:#fff;color:var(--green-dark);border-color:var(--line)}
+    section{padding:76px 0}.section-head{max-width:720px;margin-bottom:34px}.section-head.center{text-align:center;margin-left:auto;margin-right:auto}.section-head h2{font:clamp(2rem,3.4vw,3rem)/1.15 Georgia,serif;color:var(--green-dark);font-weight:400;margin:10px 0 14px}.section-head p{color:var(--muted);margin:0}.eyebrow-dark{color:var(--green)}.intro-grid{display:grid;grid-template-columns:.9fr 1.1fr;gap:55px;align-items:center}.intro-card{background:var(--cream);padding:32px;border-radius:14px;border-left:4px solid var(--gold)}.intro-card h3{font:1.6rem Georgia,serif;color:var(--green-dark);margin:0 0 12px}.intro-card p{margin:0;color:var(--muted)}.intro-copy p{color:var(--muted)}.intro-copy h2{font:clamp(2rem,3.4vw,3rem)/1.15 Georgia,serif;color:var(--green-dark);font-weight:400;margin:12px 0}
+    .cards{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.card{border:1px solid var(--line);border-radius:12px;padding:26px;background:#fff;box-shadow:0 6px 20px rgba(18,59,50,.035)}.card .num{display:inline-grid;place-items:center;width:40px;height:40px;border-radius:50%;background:var(--cream);color:var(--green);font-weight:700;margin-bottom:16px}.card h3{font:1.35rem Georgia,serif;color:var(--green-dark);margin:0 0 10px}.card p{color:var(--muted);margin:0}.soft{background:var(--cream)}.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.step{border-top:2px solid var(--gold);padding:20px 16px 0}.step strong{display:block;color:var(--green-dark);font:1.25rem Georgia,serif;margin-bottom:8px}.step p{font-size:.95rem;color:var(--muted);margin:0}
+    .checklist{list-style:none;margin:20px 0 0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:13px}.checklist li{position:relative;padding-left:28px;color:var(--muted)}.checklist li:before{content:"✓";position:absolute;left:0;top:0;color:var(--green);font-weight:800}.note{font-size:.88rem;color:var(--muted);margin-top:22px}.contact-band{background:var(--green);color:#fff;border-radius:16px;padding:38px;display:grid;grid-template-columns:1.4fr .6fr;gap:28px;align-items:center}.contact-band h2{font:clamp(1.8rem,3vw,2.5rem)/1.2 Georgia,serif;font-weight:400;margin:0 0 10px}.contact-band p{color:#e0e9e3;margin:0}.contact-band .button-row{margin-top:0;justify-content:flex-end}.contact-band .btn-outline{border-color:rgba(255,255,255,.6)}
+    .faq-list{display:grid;grid-template-columns:1fr 1fr;gap:14px}.faq{padding:22px;border:1px solid var(--line);border-radius:10px}.faq h3{font-size:1rem;color:var(--green-dark);margin:0 0 8px}.faq p{font-size:.94rem;color:var(--muted);margin:0}
+    footer{background:#0d2e27;color:#e8eee9;padding:52px 0 20px}.footer-grid{display:grid;grid-template-columns:1.3fr 1fr 1fr 1fr;gap:30px}.footer-brand{font:1.4rem Georgia,serif;letter-spacing:.1em;color:#fff}.footer-col h3{font-size:.95rem;color:var(--gold);margin:0 0 13px}.footer-col a{display:block;text-decoration:none;color:#d4dfd8;font-size:.9rem;margin:8px 0}.footer-col a:hover{color:#fff}.footer-copy{font-size:.87rem;color:#b8c9bf;margin-top:12px}.copyright{border-top:1px solid rgba(255,255,255,.14);margin-top:35px;padding-top:18px;color:#b8c9bf;font-size:.84rem;display:flex;justify-content:space-between;gap:15px;flex-wrap:wrap}
+    @media(max-width:1000px){.nav-wrap{min-height:72px}.menu-toggle{display:block}nav{display:none;position:absolute;top:100%;left:0;width:100%;background:#fff;border-bottom:1px solid var(--line);padding:12px 4% 18px;max-height:78vh;overflow:auto}nav.active{display:block}nav ul{display:block}nav a,nav button{width:100%;text-align:left;padding:11px 12px}.dropdown-menu{position:static;box-shadow:none;border:0;border-left:2px solid var(--gold);border-radius:0;margin-left:12px;max-height:none}.dropdown.open .dropdown-menu{display:block}.hero-grid{grid-template-columns:1fr;gap:28px}.hero-image{height:300px}.intro-grid{grid-template-columns:1fr;gap:25px}.cards{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.footer-grid{grid-template-columns:1fr 1fr}}
+    @media(max-width:620px){.topbar-inner{font-size:.78rem}.hero-grid{padding:44px 0}.hero h1{font-size:2.65rem}.hero-image{height:240px}.cards,.steps,.faq-list,.checklist{grid-template-columns:1fr}section{padding:56px 0}.contact-band{padding:27px;grid-template-columns:1fr}.contact-band .button-row{justify-content:flex-start}.footer-grid{grid-template-columns:1fr 1fr;gap:24px}.footer-grid>div:first-child{grid-column:1/-1}.intro-card{padding:25px}}
+  </style>
+</head>
+<body>
+  <div class="topbar"><div class="container topbar-inner"><span>Portion 764C, Butibam Road, Lae, Morobe Province, PNG</span><a href="tel:+67570523210">Call us: +675 7052 3210</a></div></div>
+  <header>
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Jokema Inn home"><strong>JOKEMA INN</strong><span>HOSPITALITY · LAE, PNG</span></a>
+      <button class="menu-toggle" aria-expanded="false" aria-controls="main-nav">☰ Menu</button>
+      <nav id="main-nav" aria-label="Main navigation"><ul>
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown"><button type="button" aria-expanded="false">Discover ▾</button><div class="dropdown-menu">
+          <a href="about.html">About Jokema Inn</a><a href="team.html">Our Team</a><a href="gallery.html">Gallery</a><a href="news.html">News & Updates</a><a href="article.html">Stories & Guides</a><a href="sustainability.html">Sustainability</a><a href="attractions.html">Explore Lae</a>
+        </div></li>
+        <li class="dropdown"><button type="button" aria-expanded="false">Stay & Services ▾</button><div class="dropdown-menu">
+          <a href="rooms.html">Rooms & Accommodation</a><a href="facilities.html">Facilities & Services</a><a href="dining.html">Dining</a><a href="offers.html">Offers & Packages</a><a href="events.html">Events & Group Enquiries</a><a href="corporate.html" aria-current="page">Corporate Travel</a><a href="partners.html">Partners</a>
+        </div></li>
+        <li class="dropdown"><button type="button" aria-expanded="false">Guest Help ▾</button><div class="dropdown-menu">
+          <a href="booking.html">Booking Enquiries</a><a href="booking-confirmation.html">Booking Confirmation</a><a href="payments.html">Payments</a><a href="booking-terms.html">Booking Terms</a><a href="cancellation-policy.html">Cancellation Policy</a><a href="faq.html">FAQs</a><a href="reviews.html">Guest Reviews</a><a href="guest-support.html">Guest Support</a><a href="accessibility.html">Accessibility</a>
+        </div></li>
+        <li><a href="contact.html">Contact</a></li>
+        <li class="dropdown"><button type="button" aria-expanded="false">Information ▾</button><div class="dropdown-menu">
+          <a href="privacy-policy.html">Privacy Policy</a><a href="terms.html">Website Terms</a><a href="careers.html">Careers</a><a href="sitemap.html">Sitemap</a><a href="search.html">Search</a>
+        </div></li>
+        <li><a class="nav-cta" href="booking.html">Enquire Now</a></li>
+      </ul></nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <span class="eyebrow">Corporate stays · Business travel</span>
+          <h1>A practical base for your time in Lae.</h1>
+          <p>Planning a work trip, coordinating travel for colleagues, or arranging accommodation for a visiting team? Contact Jokema Inn to discuss your requirements and confirm what can be arranged for your dates.</p>
+          <div class="button-row"><a class="btn btn-gold" href="booking.html">Make a stay enquiry <span aria-hidden="true">→</span></a><a class="btn btn-outline" href="tel:+67570523210">Call +675 7052 3210</a></div>
+        </div>
+        <div class="hero-image"><img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1200&q=85" alt="Illustrative image of a professional workspace" /></div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container intro-grid">
+        <div class="intro-card">
+          <h3>Start with a clear travel brief</h3>
+          <p>Sharing your dates, guest numbers and key needs helps the team respond to your enquiry more efficiently. All arrangements remain subject to confirmation by Jokema Inn.</p>
+        </div>
+        <div class="intro-copy">
+          <span class="eyebrow eyebrow-dark">For organisations and travellers</span>
+          <h2>Business travel, made easier to plan.</h2>
+          <p>Work travel often involves tight schedules, changing arrival times and several people to coordinate. Whether you are travelling alone or enquiring on behalf of an organisation, begin with the details of your visit and the accommodation you need.</p>
+          <p>Jokema Inn is listed at Butibam Road in Lae, Morobe Province. Please contact the team directly to check current room availability, rates, payment arrangements and any requirements specific to your trip.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="container">
+        <div class="section-head center"><span class="eyebrow eyebrow-dark">Who can enquire</span><h2>Support for different kinds of work trips</h2><p>Tell us about your visit so the team can advise on available options. The examples below are enquiry types, not a promise of a specific corporate package or service.</p></div>
+        <div class="cards">
+          <article class="card"><div class="num">01</div><h3>Individual business travellers</h3><p>Share your check-in and check-out dates, expected arrival time and any practical requirements for your stay.</p></article>
+          <article class="card"><div class="num">02</div><h3>Teams and project groups</h3><p>If several colleagues are travelling, provide the number of guests, room needs and whether arrivals will happen together or separately.</p></article>
+          <article class="card"><div class="num">03</div><h3>Company travel coordinators</h3><p>Organising travel for staff or visitors? Ask about current availability, quoted rates, payment methods and the details needed for your organisation’s records.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head"><span class="eyebrow eyebrow-dark">Prepare your enquiry</span><h2>Details worth including</h2><p>A concise request can help avoid unnecessary back-and-forth. Include the information you already know; the team can advise if anything else is needed.</p></div>
+        <ul class="checklist">
+          <li>Requested arrival and departure dates</li>
+          <li>Number of guests and rooms required</li>
+          <li>Expected arrival time, especially for late arrivals</li>
+          <li>Whether the enquiry is for an individual or a company</li>
+          <li>Any room preferences or practical requirements</li>
+          <li>Who will make payment and receive the confirmation</li>
+          <li>Whether an invoice or company documentation is needed</li>
+          <li>A contact name and phone number or email for follow-up</li>
+        </ul>
+        <p class="note">Please avoid sending sensitive personal or payment-card information in an initial enquiry. Confirm payment procedures directly with Jokema Inn.</p>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="container">
+        <div class="section-head center"><span class="eyebrow eyebrow-dark">How to proceed</span><h2>From enquiry to confirmed plans</h2><p>Use this simple sequence to help keep your business travel arrangements clear.</p></div>
+        <div class="steps">
+          <div class="step"><strong>01 · Send details</strong><p>Use the booking enquiry page or call the team with your dates, guest count and requirements.</p></div>
+          <div class="step"><strong>02 · Check options</strong><p>Ask the team to confirm availability, current pricing and what is included before you commit.</p></div>
+          <div class="step"><strong>03 · Confirm terms</strong><p>Clarify payment, cancellation, arrival arrangements and any company paperwork that may be needed.</p></div>
+          <div class="step"><strong>04 · Keep records</strong><p>Retain the written confirmation and share the relevant arrival details with each traveller.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <div class="container">
+        <div class="section-head"><span class="eyebrow eyebrow-dark">Helpful answers</span><h2>Corporate travel questions</h2></div>
+        <div class="faq-list">
+          <article class="faq"><h3>Are corporate rates available?</h3><p>Corporate rates or negotiated arrangements are not listed here. Contact Jokema Inn with your dates and expected booking pattern to ask what options, if any, are available.</p></article>
+          <article class="faq"><h3>Can we enquire for several staff members?</h3><p>You can contact the team with a group or multi-room request. Availability, room allocation and any group arrangements must be confirmed directly.</p></article>
+          <article class="faq"><h3>Can the inn provide an invoice or receipt?</h3><p>Ask about available documentation and the details required for your organisation before finalising payment.</p></article>
+          <article class="faq"><h3>How do we confirm a booking?</h3><p>Submit an enquiry and wait for direct confirmation from Jokema Inn. Sending an enquiry through this website does not itself guarantee a reservation.</p></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="soft">
+      <div class="container">
+        <div class="contact-band">
+          <div><h2>Planning a business visit to Lae?</h2><p>Speak with Jokema Inn about your dates and requirements. Confirm all availability, rates and arrangements directly before travel.</p></div>
+          <div class="button-row"><a class="btn btn-gold" href="booking.html">Send an enquiry</a><a class="btn btn-outline" href="contact.html">Contact details</a></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <div class="footer-grid">
+        <div><div class="footer-brand">JOKEMA INN</div><div class="footer-copy">Hospitality in Lae, Papua New Guinea.</div><div class="footer-copy">Portion 764C, Butibam Road, Lae, Morobe Province, PNG<br><a href="tel:+67570523210">+675 7052 3210</a></div></div>
+        <div class="footer-col"><h3>Stay & Services</h3><a href="rooms.html">Rooms & Accommodation</a><a href="facilities.html">Facilities & Services</a><a href="dining.html">Dining</a><a href="offers.html">Offers & Packages</a><a href="events.html">Events & Groups</a><a href="corporate.html">Corporate Travel</a></div>
+        <div class="footer-col"><h3>Discover</h3><a href="about.html">About Jokema Inn</a><a href="gallery.html">Gallery</a><a href="attractions.html">Explore Lae</a><a href="news.html">News & Updates</a><a href="sustainability.html">Sustainability</a></div>
+        <div class="footer-col"><h3>Guest Help</h3><a href="booking.html">Booking Enquiries</a><a href="faq.html">FAQs</a><a href="booking-terms.html">Booking Terms</a><a href="cancellation-policy.html">Cancellation Policy</a><a href="guest-support.html">Guest Support</a><a href="privacy-policy.html">Privacy Policy</a><a href="contact.html">Contact</a></div>
+      </div>
+      <div class="copyright"><span>© <span id="year">2026</span> Jokema Inn. All rights reserved.</span><span>Website information is provided as a guide; confirm details directly with the inn.</span></div>
+    </div>
+  </footer>
+  <script>
+    const toggle=document.querySelector('.menu-toggle');
+    const nav=document.querySelector('nav');
+    toggle.addEventListener('click',()=>{const open=nav.classList.toggle('active');toggle.setAttribute('aria-expanded',String(open));});
+    document.querySelectorAll('.dropdown > button').forEach(button=>button.addEventListener('click',()=>{const parent=button.parentElement;const open=parent.classList.toggle('open');button.setAttribute('aria-expanded',String(open));}));
+    document.addEventListener('click',event=>{if(!event.target.closest('nav'))document.querySelectorAll('.dropdown.open').forEach(item=>{item.classList.remove('open');const b=item.querySelector('button');if(b)b.setAttribute('aria-expanded','false');});});
+    document.getElementById('year').textContent=new Date().getFullYear();
+  </script>
+</body>
+</html>
